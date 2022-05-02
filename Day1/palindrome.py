@@ -1,3 +1,4 @@
+#https://leetcode.com/problems/palindrome-number/
 class Palindrome:
     def __init__(self, inputNum) -> None:
         self.inputNum = inputNum

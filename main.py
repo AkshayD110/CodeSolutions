@@ -1,6 +1,6 @@
 import Day1.palindrome, Day1.palindrome_without_string_reverse
+import Day2.sumoftwo
 
-palindrome=Day1.palindrome.Palindrome(121)
-palindrome_withoutString=Day1.palindrome_without_string_reverse.palindrome_without_stringreverse(12220)
-#print(palindrome.checkPalindrome())
-print(palindrome_withoutString.isPalindrome())
+find_index=(Day2.sumoftwo.sumOfTwo([2,5,5,10], 10))
+(index1, index2)=find_index.findIndex()
+print(index1, index2)

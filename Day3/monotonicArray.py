@@ -38,3 +38,9 @@ class monotonicArray:
         if(output==0):
             return False
         else: return True
+
+    def betterMonotonic(self):
+        nums=self.nums
+        value=(all(nums[i]<nums[i+1] for i in range(len(nums)-1)) or 
+        all(nums[i]>nums[i+1] for i in range(0, len(nums)-1)))
+        print(value)
